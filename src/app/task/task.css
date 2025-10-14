@@ -1,0 +1,12 @@
+div{
+    border :2px red solid ;
+    width: 250px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+
+}
+.done {
+text-decoration: line-through;
+color: gray;
+}

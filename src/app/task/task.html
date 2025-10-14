@@ -1,0 +1,14 @@
+<div>
+<h3 [style.color]="isDone ? 'green' : 'red'">{{ taskTitle }}</h3>
+@if (isDone) {
+    <p > This task is not done yet!</p>
+}
+@else {
+    <p > Task completed!</p>
+}
+<button (click)="markAsDone()">change</button>
+<button (click)="removeTask()">delete</button>
+
+</div>
+
+
