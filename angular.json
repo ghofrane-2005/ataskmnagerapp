@@ -12,6 +12,8 @@
       "architect": {
         "build": {
           "builder": "@angular/build:application",
+          "outputPath": "dist/todolist",
+            "index": "src/index.html",
           "options": {
             "browser": "src/main.ts",
             "polyfills": [

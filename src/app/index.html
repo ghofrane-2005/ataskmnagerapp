@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="http:cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-25SwdPDINVrV/lHTZbO2nodKhrnDJK9/kg2XD1r9uGqPo1Ubujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-image: url('back1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding-top: 200px;
+
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+        }
+        .forget{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            backdrop-filter: blue(7px);
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <form>
+                <h1> Login</h1>
+                <label for="email"> Email</label>
+               <div class="emailbox">
+                <input type="email" placeholder="esample@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+                <label class="password">password
+                </label>
+                <div class=" passwordbox">
+                    <input type="password" 
+                    placeholder="Input your password">
+                    <i class="fa-solid fa-lock"></i>
+                    >
+                    </div> <br />
+                    <label class="forget"> forget
+                        password</label> <br />
+                        <button class="login" type="submit"></button>
+                        <p class=" account"> Don't have an account!<button class="button"
+                            > Register</button>
+                    
+            </form>
+        </div>
+    </div>
+</body>
+</html>
