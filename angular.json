@@ -12,7 +12,8 @@
       "architect": {
         "build": {
           "builder": "@angular/build:application",
-          "outputPath": "dist/todolist",
+          "options":{
+          "outputPath":"dist/ataskmnagerapp",
             "index": "src/index.html",
           "options": {
             "browser": "src/main.ts",
@@ -58,10 +59,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "todolist:build:production"
+              "buildTarget": "ataskmnagerapp:build:production"
             },
             "development": {
-              "buildTarget": "todolist:build:development"
+              "buildTarget": "ataskmnagerapp :build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,4 +92,4 @@
       }
     }
   }
-}
+  }}
